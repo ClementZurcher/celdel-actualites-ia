@@ -5,7 +5,7 @@ description: Complete social media strategy, content creation, scheduling, analy
 
 # Social Media Content Engine
 
-You are a senior social media strategist and content engine. You don't just write posts — you build systematic content machines that drive business outcomes.
+You are a senior social media strategist and content engine. You don't just write posts, you build systematic content machines that drive business outcomes.
 
 ## 1. Strategy Foundation
 
@@ -72,21 +72,21 @@ Define 5-6 pillars with percentage allocation:
 **Specs:** 280 chars (threads unlimited), images 1200×675, video max 2:20
 
 **High-performing formats:**
-1. **Hook tweet** — Bold statement or contrarian take. One line. Period.
-2. **Thread (🧵)** — 5-12 tweets. Hook → Problem → Framework → Examples → CTA
-3. **List tweet** — "X things I learned from Y:" (numbered, one per line)
-4. **Quote tweet** — Add original insight to someone else's viral tweet
-5. **Poll** — 2-4 options, controversial enough to drive engagement
-6. **Screenshot tweet** — DM conversations, results, dashboards (redact names)
+1. **Hook tweet**, Bold statement or contrarian take. One line. Period.
+2. **Thread (🧵)**, 5-12 tweets. Hook → Problem → Framework → Examples → CTA
+3. **List tweet**, "X things I learned from Y:" (numbered, one per line)
+4. **Quote tweet**, Add original insight to someone else's viral tweet
+5. **Poll**, 2-4 options, controversial enough to drive engagement
+6. **Screenshot tweet**, DM conversations, results, dashboards (redact names)
 
 **Thread template:**
 ```
-Tweet 1 (HOOK — this decides everything):
+Tweet 1 (HOOK, this decides everything):
 [Bold claim or surprising stat]
 
 Here's what most people get wrong: 🧵
 
-Tweet 2-N (VALUE — one idea per tweet):
+Tweet 2-N (VALUE, one idea per tweet):
 [Number]. [Subheading]
 
 [2-3 lines of insight]
@@ -95,7 +95,7 @@ Final tweet (CTA):
 If this was useful:
 1. Follow @handle for more
 2. RT tweet 1 to help others
-3. [Specific action — DM, link, reply]
+3. [Specific action, DM, link, reply]
 ```
 
 **Optimal posting:** 3-5x/day, best times 8-10am + 12-1pm + 5-7pm (audience TZ)
@@ -111,26 +111,26 @@ If this was useful:
 **Specs:** 3000 chars (700-1300 sweet spot), images 1200×627, carousel PDF, video native
 
 **High-performing formats:**
-1. **Story post** — Personal narrative with business lesson (hook → tension → resolution → insight)
-2. **Carousel** — 8-12 slides, one idea per slide, large text, visual
-3. **Contrarian take** — "Unpopular opinion: [thing everyone does] is killing your [result]"
-4. **Framework post** — "The [NAME] Framework for [outcome]" + visual
-5. **Data post** — Original data, survey results, or benchmark with analysis
-6. **Milestone + lesson** — "We just hit [X]. Here's what nobody tells you about getting here."
+1. **Story post**, Personal narrative with business lesson (hook → tension → resolution → insight)
+2. **Carousel**, 8-12 slides, one idea per slide, large text, visual
+3. **Contrarian take**, "Unpopular opinion: [thing everyone does] is killing your [result]"
+4. **Framework post**, "The [NAME] Framework for [outcome]" + visual
+5. **Data post**, Original data, survey results, or benchmark with analysis
+6. **Milestone + lesson**, "We just hit [X]. Here's what nobody tells you about getting here."
 
 **LinkedIn post template:**
 ```
-[HOOK LINE — pattern-interrupt, max 2 lines before "see more"]
+[HOOK LINE, pattern-interrupt, max 2 lines before "see more"]
 
-↓ (line break — force the fold)
+↓ (line break, force the fold)
 
 [3-5 short paragraphs, each 1-3 sentences]
-[Use line breaks liberally — walls of text die]
-[Include a specific number, name, or detail — not vague]
+[Use line breaks liberally, walls of text die]
+[Include a specific number, name, or detail, not vague]
 
 [Key takeaway in bold or caps]
 
-[CTA — question for comments, or soft link in comments]
+[CTA, question for comments, or soft link in comments]
 
 ---
 ♻️ Repost if this resonates
@@ -141,8 +141,8 @@ If this was useful:
 
 **Growth tactics:**
 - Comment on 20+ posts before/after publishing yours (warm the algorithm)
-- First 60 minutes are critical — have 5-10 people engage immediately
-- Put links in FIRST COMMENT (not in post — kills reach)
+- First 60 minutes are critical, have 5-10 people engage immediately
+- Put links in FIRST COMMENT (not in post, kills reach)
 - DM everyone who comments with value (not pitch)
 - Carousel posts get 3-5x more reach than text
 
@@ -151,11 +151,11 @@ If this was useful:
 **Specs:** Caption 2200 chars (125 preview), image 1080×1080 or 1080×1350, Reels 90s max, Stories 15s
 
 **High-performing formats:**
-1. **Carousel (educational)** — 7-10 slides, problem → solution format, save-worthy
-2. **Reel** — Hook in 0.5s, value in 15-30s, trending audio, text overlays
-3. **Story series** — Behind-the-scenes, polls, Q&A (drives DMs)
-4. **Single image + long caption** — Quote graphic or stat with storytelling caption
-5. **Collab post** — Partner with complementary account (shared audiences)
+1. **Carousel (educational)**, 7-10 slides, problem → solution format, save-worthy
+2. **Reel**, Hook in 0.5s, value in 15-30s, trending audio, text overlays
+3. **Story series**, Behind-the-scenes, polls, Q&A (drives DMs)
+4. **Single image + long caption**, Quote graphic or stat with storytelling caption
+5. **Collab post**, Partner with complementary account (shared audiences)
 
 **Reel script template:**
 ```
@@ -165,7 +165,7 @@ If this was useful:
 [20-25s] CTA: "Follow for more" / "Save this" / "Comment [word]"
 
 Audio: [trending sound or original]
-Text overlays: [key points on screen — many watch muted]
+Text overlays: [key points on screen, many watch muted]
 Hashtags (first comment): 15-20 mix of broad + niche
 ```
 
@@ -183,17 +183,17 @@ Hashtags (first comment): 15-20 mix of broad + niche
 **Specs:** Video 15s-10min (sweet spot 30-60s), vertical 1080×1920
 
 **High-performing formats:**
-1. **Green screen** — You + screenshot/article behind you, react and teach
-2. **POV/Skit** — "POV: You're a [role] and [relatable scenario]"
-3. **Tutorial** — Step-by-step with screen recording or physical demo
-4. **Stitch/Duet** — React to trending content in your niche
-5. **Day-in-the-life** — Edited routine showing your work/lifestyle
-6. **Storytime** — Personal story with lesson (hook: "Story time...")
+1. **Green screen**, You + screenshot/article behind you, react and teach
+2. **POV/Skit**, "POV: You're a [role] and [relatable scenario]"
+3. **Tutorial**, Step-by-step with screen recording or physical demo
+4. **Stitch/Duet**, React to trending content in your niche
+5. **Day-in-the-life**, Edited routine showing your work/lifestyle
+6. **Storytime**, Personal story with lesson (hook: "Story time...")
 
 **Script template:**
 ```
 [0-0.5s] HOOK (text on screen + verbal): "[Thing that stops the scroll]"
-[0.5-3s] CONTEXT: Quick setup — who, what, why they should care
+[0.5-3s] CONTEXT: Quick setup, who, what, why they should care
 [3-25s] DELIVERY: The value, story, or tutorial
 [25-30s] CTA: "Follow for part 2" / "Comment if you relate" / "What would you do?"
 
@@ -216,7 +216,7 @@ Music: Trending sound at 10-20% volume under voiceover
 ### Monthly Planning Process
 
 **Week before month starts:**
-1. Review last month's top 5 posts per platform — what patterns?
+1. Review last month's top 5 posts per platform, what patterns?
 2. Check upcoming dates: holidays, industry events, product launches
 3. Map content pillars to weeks (theme weeks work well)
 4. Draft batch: write 20-30 posts in one session
@@ -313,10 +313,10 @@ Blog post (1500 words)
 | Niche | 10K-100K | Targeted community | 5-7 |
 
 ### Research Process
-1. Search your core topic — note suggested hashtags
-2. Check competitor posts — what hashtags do they use?
+1. Search your core topic, note suggested hashtags
+2. Check competitor posts, what hashtags do they use?
 3. Use platform search to check volume (posts count)
-4. Test 3 different hashtag sets over 2 weeks — measure which drives more reach
+4. Test 3 different hashtag sets over 2 weeks, measure which drives more reach
 5. Rotate sets monthly (staleness kills reach)
 
 ### Hashtag Template
@@ -339,13 +339,13 @@ hashtag_sets:
 Morning (15 min):
   □ Reply to all comments on yesterday's posts
   □ Like/comment on 10 posts from target accounts
-  □ Check DMs — respond to all within 24h
-  □ Check trending topics — can you newsjack?
+  □ Check DMs, respond to all within 24h
+  □ Check trending topics, can you newsjack?
 
 Evening (15 min):
   □ Reply to new comments on today's posts
   □ Engage with 10 more accounts in your niche
-  □ Send 3-5 value DMs (not pitches — genuine comments)
+  □ Send 3-5 value DMs (not pitches, genuine comments)
   □ Save content ideas from today's scroll
 ```
 
@@ -359,7 +359,7 @@ Evening (15 min):
 1. Identify 20 accounts at similar follower count (peer tier)
 2. Engage genuinely for 2 weeks before pitching collaboration
 3. Propose: guest post swap, IG Live together, Twitter Space, collab post
-4. Cross-promote: "I loved this post by @handle — here's what I'd add..."
+4. Cross-promote: "I loved this post by @handle, here's what I'd add..."
 
 ## 7. Analytics & Optimization
 
@@ -443,7 +443,7 @@ Rate every post before publishing:
 ### Comment Response Templates
 
 **Valid complaint:**
-"You're right, and I appreciate you calling this out. [Specific acknowledgment]. Here's what we're doing about it: [action]. I'll follow up with you directly — DM incoming."
+"You're right, and I appreciate you calling this out. [Specific acknowledgment]. Here's what we're doing about it: [action]. I'll follow up with you directly, DM incoming."
 
 **Troll/bad faith:**
 "Thanks for the perspective. For anyone interested in the full context: [brief factual correction with link]." Then disengage.
@@ -458,10 +458,10 @@ Rate every post before publishing:
 
 ### Content Series
 Create recurring series that build audience habit:
-- "Monday Market Minutes" — weekly industry roundup
-- "Framework Friday" — share one tactical framework
-- "Win Wednesday" — customer success story
-- "Tool Tuesday" — review one tool in your stack
+- "Monday Market Minutes", weekly industry roundup
+- "Framework Friday", share one tactical framework
+- "Win Wednesday", customer success story
+- "Tool Tuesday", review one tool in your stack
 
 ### User-Generated Content Engine
 1. Create a branded hashtag
@@ -477,7 +477,7 @@ Do: "We noticed 73% of [role]s struggle with [problem].
      Here's exactly what we did: [value-first content]
      
      If you're dealing with this too, happy to share the 
-     full playbook — just comment 'playbook' below."
+     full playbook, just comment 'playbook' below."
 ```
 
 ## 10. Automation & Efficiency

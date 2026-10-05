@@ -16,7 +16,7 @@ metadata:
 Repérer l'actualité IA et en tirer des opportunités de marché exploitables, puis livrer un
 rapport dans un **Google Sheet déposé dans le Drive** de l'utilisateur.
 
-## When to Use — quand l'utiliser
+## When to Use : quand l'utiliser
 
 - « quelles sont les actus IA ? », « fais-moi un rapport de veille »
 - « quelles opportunités business l'IA ouvre-t-elle ? », « quels besoins d'entreprise l'IA peut résoudre ? »
@@ -25,12 +25,12 @@ rapport dans un **Google Sheet déposé dans le Drive** de l'utilisateur.
 
 ## LES 4 THÈMES (cadre imposé par le SOUL.md du profil)
 
-1. **Productivité** — gains de productivité, automatisation des processus.
-2. **Outils IA** — nouveaux outils, modèles, fonctionnalités.
-3. **Opportunités métier** — nouveaux besoins ou problèmes d'entreprise que l'IA peut résoudre.
-4. **Signaux à surveiller** — signaux faibles, évolutions réglementaires, mouvements fournisseurs.
+1. **Productivité**, gains de productivité, automatisation des processus.
+2. **Outils IA**, nouveaux outils, modèles, fonctionnalités.
+3. **Opportunités métier**, nouveaux besoins ou problèmes d'entreprise que l'IA peut résoudre.
+4. **Signaux à surveiller**, signaux faibles, évolutions réglementaires, mouvements fournisseurs.
 
-## RÈGLE DE LIVRAISON — le Google Sheet, systématiquement
+## RÈGLE DE LIVRAISON : le Google Sheet, systématiquement
 
 **Tout rapport de veille est livré dans un Google Sheet déposé dans le Drive.** C'est une
 convention permanente de ce profil, pas une option. Ne jamais se contenter d'un tableau dans le
@@ -40,7 +40,7 @@ Voie d'accès : **Composio CLI**. Ne pas passer par `hermes mcp` : le CLI est au
 (binaire dans `~/.local/bin`, session dans `~/.composio/config.json`, hors de `HERMES_HOME`) et
 sert donc **tous les profils** sans installation supplémentaire.
 
-Structure du classeur (onglets sans apostrophe — la notation A1 exigerait de les doubler) :
+Structure du classeur (onglets sans apostrophe, la notation A1 exigerait de les doubler) :
 
 | Onglet | Contenu |
 |---|---|
@@ -63,10 +63,10 @@ echo "$HERMES_HOME"
 ```
 
 Un profil peut avoir été renommé ou repointé depuis la session précédente : `profile.yaml`
-contient `previous_names`. Relire le `SOUL.md` du profil actif si la mission semble avoir changé —
+contient `previous_names`. Relire le `SOUL.md` du profil actif si la mission semble avoir changé, 
 c'est lui qui fait foi, pas le souvenir de la session précédente.
 
-### 2. Rechercher — 3 sources de signal complémentaires
+### 2. Rechercher : 3 sources de signal complémentaires
 
 - `web_search` (FR + EN, avec le mois et l'année dans la requête) puis `web_extract` sur les
   sources les plus prometteuses.
@@ -83,9 +83,9 @@ publiques.** Croiser systématiquement le fait du jour avec la statistique de ma
 
 Trois niveaux à ne jamais confondre dans une même phrase :
 
-- **Fait** — ce que dit la source, attribué nommément.
-- **Affirmation de la source** — un communiqué éditeur, une étude commanditée par un acteur du marché.
-- **Analyse** — la lecture de l'assistant, présentée comme telle.
+- **Fait**, ce que dit la source, attribué nommément.
+- **Affirmation de la source**, un communiqué éditeur, une étude commanditée par un acteur du marché.
+- **Analyse**, la lecture de l'assistant, présentée comme telle.
 
 ### 4. Niveaux de fiabilité
 
@@ -100,7 +100,7 @@ Trois niveaux à ne jamais confondre dans une même phrase :
 `Disponible` (déployé ou en vigueur) · `En test` · `Annoncé` · `Spéculatif` (prise de position
 sans dispositif opérationnel). **Ne jamais présenter une annonce comme une preuve d'efficacité.**
 
-### 6. Fiche d'actualité — 8 points imposés
+### 6. Fiche d'actualité : 8 points imposés
 
 1. Titre et date · 2. Résumé factuel · 3. Pourquoi c'est pertinent · 4. Problème métier concerné ·
 5. Application possible · 6. Niveau de maturité · 7. Points de vigilance · 8. Sources avec lien et date.
@@ -132,7 +132,7 @@ composio execute GOOGLESHEETS_VALUES_UPDATE -d @payload.json       # value_input
 composio execute GOOGLESHEETS_VALUES_GET -d '{...}'                # relecture obligatoire
 ```
 
-Écrire le script Python sous `write_file` puis l'exécuter — pas de heredoc géant à retaper.
+Écrire le script Python sous `write_file` puis l'exécuter, pas de heredoc géant à retaper.
 Le script doit **relire chaque onglet et comparer au nombre de lignes attendu**. Un
 `successful: true` n'est pas une preuve : le comptage l'est.
 
@@ -140,14 +140,14 @@ Le script doit **relire chaque onglet et comparer au nombre de lignes attendu**.
 
 Un script relancé après un plantage crée un **classeur orphelin à chaque tentative**. Avant de
 recréer : lister avec `GOOGLESHEETS_SEARCH_SPREADSHEETS` (`-d '{"query":"<fragment de titre>"}'`,
-un fragment simple — une syntaxe de requête Drive ne remonte rien) et **mettre le doublon à la
+un fragment simple, une syntaxe de requête Drive ne remonte rien) et **mettre le doublon à la
 corbeille** avec `GOOGLEDRIVE_TRASH_FILE -d '{"file_id":"..."}'`. La suppression par défaut est
 réversible : la préférer.
 
 ## Pitfalls
 
 - **Ne jamais coder en dur le nom d'un profil dans un chemin de skill.** Résoudre via
-  `$HERMES_HOME` (ex. `$HERMES_HOME/skills/research/last30days`). Un profil renommé — c'est arrivé —
+  `$HERMES_HOME` (ex. `$HERMES_HOME/skills/research/last30days`). Un profil renommé, c'est arrivé, 
   fait échouer toutes les commandes restées sur l'ancien chemin, et un `cd` raté en tâche de fond
   se solde par une sortie vide qui passe pour « pas de résultat » au lieu d'une erreur.
 - **Un signal communautaire n'est pas une mesure de marché.** Des citations de praticiens avec
@@ -186,7 +186,7 @@ réversible : la préférer.
 - Il veut des **artefacts réels** (fichier déposé, URL vérifiée, sortie d'exécution), pas une
   description de ce qui serait fait.
 - Il veut les **blocages dits franchement**, avec la preuve du contrôle et la procédure de déblocage.
-- **Chaque rapport va dans un Google Sheet de son Drive** — convention permanente.
+- **Chaque rapport va dans un Google Sheet de son Drive**, convention permanente.
 - Il veut pouvoir **ajouter ses propres idées** : le classeur reste modifiable (colonne `Statut`).
 
 ## Vérification

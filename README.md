@@ -1,4 +1,4 @@
-# Skills Hermès — Actualités & veille IA (Celdel AI)
+# Skills Hermès : Actualités & veille IA (Celdel AI)
 
 Repérer et présenter les actualités utiles : productivité, outils IA, opportunités métier, signaux à surveiller.
 
