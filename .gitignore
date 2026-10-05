@@ -1,0 +1,5 @@
+# Assets lourds sans lien avec le skill (restes de test) : non versionnés.
+# Ils dépassent aussi la limite de taille d'envoi de l'API utilisée.
+skills/last30days/assets/*.jpeg
+skills/last30days/assets/*.png
+skills/last30days/assets/*.mp3
